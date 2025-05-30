@@ -1,13 +1,293 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Gloria+Hallelujah&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Metal+Mania&family=Playwrite+DK+Loopet:wght@100..400&family=Playwrite+HU:wght@100..400&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rochester&display=swap');
+
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: Roboto;
+}
+
+:root {
+    --qora: black;
+    --kukimtilroq-rang: #25468A;
+    --och-kukroq: #1391CEB2;
+    --oq: rgb(255, 255, 255);
+    --sariq-simon: #F7BA0E;
+    --uchtasi-birda-kuk:#1391CE;
+}
+
+.kuk-qismi {
+    width: 100%;
+    height: 643px;
+    background-color: var(--och-kukroq);
+}
+
+.container {
+    width: 100%;
+    max-width: 1121px;
+    margin: auto;
+}
+
+.bosh-qsim {
+    padding-top: 15px;
 }
 
 
-header{
-    margin-top: 50px;
-    width: 500px;
-    height: 250px;
-    border: 5px solid black;
+.bosh-qsim1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
+.rasimch-bu-bir img {
+    width: 53.66px;
+    height: 54px;
+}
+
+.header-chap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.birinchi-siz-bir-header {
+    font-size: 25.68px;
+    color: var(--kukimtilroq-rang);
+}
+
+.header-ung {
+    display: flex;
+}
+
+.birinchi-ikkinchida {
+    display: flex;
+    gap: 40px;
+}
+
+.birinchi-ikkinchida a {
+    display: flex;
+    font-size: 16px;
+    color: var(--kukimtilroq-rang);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+
+.birinchi-tugmacha {
+    margin-left: 40px;
+    width: 116px;
+    height: 37px;
+    border-radius: 25px;
+    font-size: 16px;
+    color: var(--kukimtilroq-rang);
+    background-color: var(--oq);
+    border: none;
+}
+
+
+.main1 {
+    width: 100%;
+    padding-top: 120px;
+}
+
+.bosh-narsalar {
+    display: flex;
+}
+
+.textlar-birinchi {
+    flex: 1;
+}
+
+.resim-ikkinchi-png {
+    flex: 1;
+}
+
+.resim-ikkinchi-png img {
+    width: 560px;
+    height: 401px;
+}
+
+.han {
+    margin-bottom: 50px;
+}
+
+.han h1 {
+    font-size: 92px;
+    color: var(--kukimtilroq-rang);
+}
+
+.bi {
+    font-size: 32px;
+    color: #3B4A6B;
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+
+.han p {
+    font-size: 20px;
+    color: #3B4A6B;
+    line-height: 1.4;
+}
+
+
+.tugma-birinchi a {
+    text-decoration: none;
+}
+
+
+.birinchi-tugmach-sariq {
+    width: 264px;
+    height: 51px;
+    border: none;
+    background-color: var(--sariq-simon);
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #3B4A6B;
+    font-size: 18px;
+}
+
+
+.ikkinchi-urta-qsim{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(216, 229, 234);
+}
+
+.birinchi-uchlik{
+    width: 100%;
+    display: flex;
+    gap: 30px;
+}
+
+.ali{
+    flex:1;
+    height: 198px;
+    margin-top:170px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:var(--uchtasi-birda-kuk) ;
+    margin-bottom: 50px;
+}
+
+.ali p{
+    font-size: 22px;
+    color: #FFFFFF;
+}
+
+
+.tex-bu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+    font-family: inter;
+}
+
+.tex-bu p{
+    display: flex;
+    justify-content: start;
+    font-size: 32px;
+    color: #1391CE;
+    font-family: Inter;
+}
+
+.sariq-chiziq{
+    width: 160px;
+    height: 8px;
+    background-color:#F7BA0E ;
+    margin-top: 20px;
+}
+
+.rasim-va-matin-1{
+    display: flex;
+    justify-content: space-between;
+    font-family: Inter;
+    padding-bottom: 50px;
+}
+
+rasim-qiyon{
+    flex: 1;
+}
+
+.qiyonni-oldidagi-matinlar{
+    flex: 1;
+    padding-left: 90px;
+}
+
+rasim-qiyon img{
+    width: 560px;
+    height: 408px;
+}
+
+
+.alfa{
+    color:#25468A ;
+    font-size:16px;
+}
+
+
+
+.alfa1{
+    color:#1391CE ;
+    font-size: 32px;
+    padding: 25px 0;
+}
+
+.birinchi-texlar ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    font-size: 18px;
+    gap: 5px;
+    color: #4F4F4F;
+    font-family: Inter;
+}
+
+
+.rasim-va-matin-2{
+    display: flex;
+}
+
+
+.birinchisi-texlar {
+    flex: 1;
+    width: 100%;
+    height: 455px;
+}
+.rasm-bu-ikkinchi{
+    flex: 1;
+    width: 100%;
+    height: 455px;
+
+}
+
+
+.rasm-bu-ikkinchi img{
+    width: 560px;
+    height: 408px;
+}
+
+
+.outputs{
+    font-size: 22px;
+    color:#1391CE;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
